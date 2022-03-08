@@ -1,0 +1,233 @@
+@media only screen and (min-width: 992px) {
+  .desktop {
+    display: block;
+  }
+
+  .mobile {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    display: block;
+  }
+
+  .header-main {
+    max-width: 1170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+  }
+
+  .header-left {
+    min-width: 260px;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .header-logo {
+    margin-right: 0%;
+    width: 145px;
+  }
+
+  .header-geo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .header-geo-image > path {
+    fill: var(--c-yellow);
+  }
+
+  .header-geo-city {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+  }
+
+  .header-geo-city-menu {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: var(--c-white);
+    z-index: 1;
+    padding: 20px 15px;
+  }
+
+  .header-geo-city-menu-item {
+    display: block;
+    padding: 5px 0;
+    white-space: nowrap;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .header-right-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .header-call {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+  }
+
+  .header-call-number {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    color: var(--c-yellow);
+  }
+
+  .header-kontakts-container {
+    display: flex;
+    height: 100%;
+  }
+
+  .header-kontakts-container-text {
+    padding: 25px;
+    border-right: 1px solid var(--c-line);
+    border-left: 1px solid var(--c-line);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-kontakts-container-img {
+    padding: 0 25px;
+    border-right: 1px solid var(--c-line);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .header-kontakts-container-img img{
+      min-height: 32px;
+      min-width: 32px;
+  }
+
+  footer {
+    width: 100%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-container {
+    max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 auto;
+  }
+
+  .footer-block-first {
+    order: 1;
+    margin-top: 40px;
+    width: 200px;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .footer-logo {
+    width: 170px;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .footer-block-second {
+    order: 2;
+    margin-top: 40px;
+    margin-left: 1%;
+    width: 320px;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+.footer-block-first-title {
+  margin-top: 30px;
+}
+
+  .footer-block-second-title,
+  .footer-block-third-title,
+  .footer-block-fourth-title {
+    width: 100%;
+    font-size: 15px;
+    line-height: 26px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+.footer-block-fourth-title:nth-of-type(2) {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+
+  .footer-block-second-text:nth-of-type(2) {
+    letter-spacing: -0.3px;
+  }
+
+  .footer-block-second-text:nth-of-type(3) {
+    letter-spacing: -0.4px;
+  }
+
+  .footer-block-second-text:nth-of-type(6) {
+    letter-spacing: -0.8px;
+  }
+
+  .footer-block-third {
+    order: 3;
+    width: 230px;
+    margin-top: 40px;
+    margin-left: 1%;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .footer-block-fourth {
+    order: 4;
+    width: 240px;
+    margin-top: 40px;
+    margin-left: 1%;
+    margin-bottom: 35px;
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .footer-block-payment {
+    margin-top: 24px;
+    font-size: 11px;
+    line-height: 15px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footer-block-payment-icons {
+    margin-top: 15px;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .footer-block-fourth-net {
+    width: 240px;
+  }
+}
